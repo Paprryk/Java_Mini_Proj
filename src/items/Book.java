@@ -6,6 +6,10 @@ public class Book extends Item {
 
 	private String genre;
 
+	public Book() {
+		super();
+	}
+
 	public Book(String type, String author, String title, String genre) {
 		super(type, author, title);
 		this.genre = genre;

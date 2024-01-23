@@ -5,6 +5,10 @@ import main.Item;
 public class Magazine extends Item {
 	private int pages;
 
+	public Magazine() {
+		super();
+	}
+
 	public Magazine(String type, String author, String title, int pages) {
 		super(type, author, title);
 		this.pages = pages;

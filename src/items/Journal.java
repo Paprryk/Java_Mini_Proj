@@ -6,6 +6,10 @@ public class Journal extends Item {
 
 	private String publisher;
 
+	public Journal() {
+		super();
+	}
+
 	public Journal(String type, String author, String title, String publisher) {
 		super(type, author, title);
 		this.publisher = publisher;
