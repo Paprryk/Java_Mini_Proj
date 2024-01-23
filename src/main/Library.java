@@ -14,7 +14,6 @@ public class Library {
 		items.remove(item);
 	}
 
-// Remove items by ID
 	public void removeItem(int id) {
 		for (Item i : this.items) {
 			if (id == i.getId()) {
